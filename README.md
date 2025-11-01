@@ -4,18 +4,18 @@
 This project predicts **obesity categories** based on lifestyle + physical attributes using supervised machine learning.  
 We perform preprocessing, EDA, model training, hyperparameter tuning and compare multiple ML algorithms.
 
-### 📊 Dataset
+###  Dataset
 - **Total Samples:** 17,644  
 - **Attributes:** 17 (Lifestyle, physical, behavioural)  
 - **Target Classes:** Insufficient Weight, Normal Weight, Overweight I, Overweight II, Obesity I, Obesity II, Obesity III
 
-### 🔧 Preprocessing Steps
+###  Preprocessing Steps
 - Manual categorical encoding  
 - StandardScaler applied on continuous features  
 - Combined two datasets + performed KS Test to validate distribution similarity  
 - PCA for visualization of dataset overlap
 
-### 🔍 EDA Highlights
+###  EDA Highlights
 Explored factors like:
 - Height vs Weight relation
 - Transportation mode vs obesity level
